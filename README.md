@@ -1,12 +1,29 @@
-# React + Vite
+🌐 AreoTime
+  AreoTime is a modern and responsive web application that combines real-time clock functionality with live weather updates.
+  It allows users to view the current time in IST in both 12-hour and 24-hour formats, while also displaying detailed weather information for any city entered by the user.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+  🕒 IST Clock: Displays the current Indian Standard Time in both 12-hour and 24-hour formats.
+  🌦️ Live Weather: Fetches real-time weather details for any city entered by the user.
+  🌡️ Detailed Insights: Shows temperature, humidity, and general weather conditions.
+  ⚡ Responsive UI: Designed for smooth performance across devices.
+  🧩 Built with Modern Tools: Developed using React.js for an interactive experience.
 
-Currently, two official plugins are available:
+💡 How It Works
+  Displays IST: Automatically fetches and updates the current time in IST using JavaScript’s Date object.
+  Fetches Weather Data: Uses the OpenWeatherMap API to retrieve live weather data based on the city name entered by the user.
+  Interactive UI: Clean and responsive design for an intuitive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧭 Future Improvements
+  🌍 Support for multiple time zones
+  📱 Mobile-first UI redesign
+  🕹️ Automatic location detection for weather
+  🌙 Dark and light mode toggle
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👨‍💻 About the Project
+  AreoTime was created as a personal React project to demonstrate integration of APIs, time functions, and responsive UI design.
+  It highlights core frontend development skills — including state management, API handling, and component-based architecture.
+  
+📫 Contact
+  Created by Jinay Shah
+  🔗 https://www.linkedin.com/in/jinay-shah-77162422b/
