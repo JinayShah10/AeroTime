@@ -1,0 +1,62 @@
+.clock-container-back {
+    background-color: #3a3a3a;
+    width: 500px;
+    height: 160px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease forwards;
+}
+
+.clock-container-front {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    width: 480px;
+    height: 140px;
+    border-radius: 30px;
+    transform: scale(0.95);
+    padding: 15px;
+    animation: popUp 0.5s ease forwards;
+}
+
+.time {
+    font-size: 3.5rem;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    animation: pulse 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.time:hover {
+    transform: scale(1.15);
+}
+
+.day {
+    font-size: 1.2rem;
+    color: #bbb;
+    transition: transform 0.3s ease-in-out;
+}
+
+.day:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes popUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(0.95); opacity: 1; }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
